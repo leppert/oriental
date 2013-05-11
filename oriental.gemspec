@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.25"
   s.summary = "Tools for OrientDB"
 
-  s.add_dependency("orient_db_client", [">= 0.0.6"])
+  s.add_dependency("orientdb4r")
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
